@@ -28,4 +28,4 @@ gender = pd.get_dummies(X['Gender'], drop_first=True)
 
 ## Concatinate these variables with dataframes
 
-X = X.drop(['Geograohy', 'Gender'], axis =1)
+X = X.drop(['Geography', 'Gender'], axis =1)
