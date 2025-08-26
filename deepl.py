@@ -17,7 +17,7 @@ print(dataset.head)     #use to read some values of the dataset
 # Divide the dataset in independent and dependent feature 
 
 X = dataset.iloc[: ,3:13]     #independent feature ilpc used to trave through dataset
-y = dataset.iloc[:,13]      #Dependent variable
+y = dataset.iloc[:,13]        #Dependent variable
 
 # print(X.head())
 
